@@ -15,6 +15,10 @@
 		2694CDAB1D672DFF00C8266A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2694CDA91D672DFF00C8266A /* LaunchScreen.storyboard */; };
 		2694CDB61D672DFF00C8266A /* IOSuserAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694CDB51D672DFF00C8266A /* IOSuserAuthenticationTests.m */; };
 		2694CDC11D672DFF00C8266A /* IOSuserAuthenticationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694CDC01D672DFF00C8266A /* IOSuserAuthenticationUITests.m */; };
+		2694CDCF1D672FF300C8266A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2694CDCE1D672FF300C8266A /* GoogleService-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		382DA565087BB72C10D7A999 /* libPods-IOSuserAuthenticationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA016A54F786BA9A9167216 /* libPods-IOSuserAuthenticationTests.a */; };
+		733A984942D781193D0BEE1A /* libPods-IOSuserAuthentication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC841940480CCA5200993FFE /* libPods-IOSuserAuthentication.a */; };
+		FB7FE55D092453C4584B6BD8 /* libPods-IOSuserAuthenticationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2344F456C6A91D26CCC941 /* libPods-IOSuserAuthenticationUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2344F456C6A91D26CCC941 /* libPods-IOSuserAuthenticationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSuserAuthenticationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13352A3F51CA421DBBBC9F9A /* Pods-IOSuserAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSuserAuthentication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSuserAuthentication/Pods-IOSuserAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		1675A1F3D49DE9C350E1A9D8 /* Pods-IOSuserAuthenticationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSuserAuthenticationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSuserAuthenticationTests/Pods-IOSuserAuthenticationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2694CD981D672DFF00C8266A /* IOSuserAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSuserAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2694CD9C1D672DFF00C8266A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2694CD9E1D672DFF00C8266A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		2694CDBC1D672DFF00C8266A /* IOSuserAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSuserAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2694CDC01D672DFF00C8266A /* IOSuserAuthenticationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSuserAuthenticationUITests.m; sourceTree = "<group>"; };
 		2694CDC21D672DFF00C8266A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2694CDCE1D672FF300C8266A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CBFDC1F3841E86D9BDD52A2 /* Pods-IOSuserAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSuserAuthentication.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSuserAuthentication/Pods-IOSuserAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+		5FA016A54F786BA9A9167216 /* libPods-IOSuserAuthenticationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSuserAuthenticationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F38EA65B1DE55FFE429A2B /* Pods-IOSuserAuthenticationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSuserAuthenticationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSuserAuthenticationUITests/Pods-IOSuserAuthenticationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC841940480CCA5200993FFE /* libPods-IOSuserAuthentication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSuserAuthentication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCE6B511515372DD0B6ED01 /* Pods-IOSuserAuthenticationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSuserAuthenticationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSuserAuthenticationTests/Pods-IOSuserAuthenticationTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7B58F15995BEC2A14C5C23F /* Pods-IOSuserAuthenticationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSuserAuthenticationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSuserAuthenticationUITests/Pods-IOSuserAuthenticationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733A984942D781193D0BEE1A /* libPods-IOSuserAuthentication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382DA565087BB72C10D7A999 /* libPods-IOSuserAuthenticationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7FE55D092453C4584B6BD8 /* libPods-IOSuserAuthenticationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,13 @@
 		2694CD8F1D672DFF00C8266A = {
 			isa = PBXGroup;
 			children = (
+				2694CDCE1D672FF300C8266A /* GoogleService-Info.plist */,
 				2694CD9A1D672DFF00C8266A /* IOSuserAuthentication */,
 				2694CDB41D672DFF00C8266A /* IOSuserAuthenticationTests */,
 				2694CDBF1D672DFF00C8266A /* IOSuserAuthenticationUITests */,
 				2694CD991D672DFF00C8266A /* Products */,
+				59BDA0703D692A37160B15EA /* Pods */,
+				FA3C52FDCCC5FC39B6A277E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +160,29 @@
 			path = IOSuserAuthenticationUITests;
 			sourceTree = "<group>";
 		};
+		59BDA0703D692A37160B15EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13352A3F51CA421DBBBC9F9A /* Pods-IOSuserAuthentication.debug.xcconfig */,
+				4CBFDC1F3841E86D9BDD52A2 /* Pods-IOSuserAuthentication.release.xcconfig */,
+				1675A1F3D49DE9C350E1A9D8 /* Pods-IOSuserAuthenticationTests.debug.xcconfig */,
+				CCCE6B511515372DD0B6ED01 /* Pods-IOSuserAuthenticationTests.release.xcconfig */,
+				E7B58F15995BEC2A14C5C23F /* Pods-IOSuserAuthenticationUITests.debug.xcconfig */,
+				75F38EA65B1DE55FFE429A2B /* Pods-IOSuserAuthenticationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA3C52FDCCC5FC39B6A277E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC841940480CCA5200993FFE /* libPods-IOSuserAuthentication.a */,
+				5FA016A54F786BA9A9167216 /* libPods-IOSuserAuthenticationTests.a */,
+				0D2344F456C6A91D26CCC941 /* libPods-IOSuserAuthenticationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2694CDC51D672DFF00C8266A /* Build configuration list for PBXNativeTarget "IOSuserAuthentication" */;
 			buildPhases = (
+				0574A2E0F7179E484D0D5B30 /* [CP] Check Pods Manifest.lock */,
 				2694CD941D672DFF00C8266A /* Sources */,
 				2694CD951D672DFF00C8266A /* Frameworks */,
 				2694CD961D672DFF00C8266A /* Resources */,
+				DDD6A7D6A3F414CB2584B5A7 /* [CP] Embed Pods Frameworks */,
+				D3106FA8E61D5EDD4814C0D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2694CDC81D672DFF00C8266A /* Build configuration list for PBXNativeTarget "IOSuserAuthenticationTests" */;
 			buildPhases = (
+				D54A88300255F0A149DBBE3A /* [CP] Check Pods Manifest.lock */,
 				2694CDAD1D672DFF00C8266A /* Sources */,
 				2694CDAE1D672DFF00C8266A /* Frameworks */,
 				2694CDAF1D672DFF00C8266A /* Resources */,
+				37D1A6207022C58B7C243DFC /* [CP] Embed Pods Frameworks */,
+				64CD458991E21DA42F369B35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2694CDCB1D672DFF00C8266A /* Build configuration list for PBXNativeTarget "IOSuserAuthenticationUITests" */;
 			buildPhases = (
+				B744CF516D79E1DC97F50F32 /* [CP] Check Pods Manifest.lock */,
 				2694CDB81D672DFF00C8266A /* Sources */,
 				2694CDB91D672DFF00C8266A /* Frameworks */,
 				2694CDBA1D672DFF00C8266A /* Resources */,
+				A01E5D6803A59EBF0A8FCC4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2694CDAB1D672DFF00C8266A /* LaunchScreen.storyboard in Resources */,
+				2694CDCF1D672FF300C8266A /* GoogleService-Info.plist in Resources */,
 				2694CDA81D672DFF00C8266A /* Assets.xcassets in Resources */,
 				2694CDA61D672DFF00C8266A /* Main.storyboard in Resources */,
 			);
@@ -264,6 +316,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0574A2E0F7179E484D0D5B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37D1A6207022C58B7C243DFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSuserAuthenticationTests/Pods-IOSuserAuthenticationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64CD458991E21DA42F369B35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSuserAuthenticationTests/Pods-IOSuserAuthenticationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01E5D6803A59EBF0A8FCC4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSuserAuthenticationUITests/Pods-IOSuserAuthenticationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B744CF516D79E1DC97F50F32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3106FA8E61D5EDD4814C0D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSuserAuthentication/Pods-IOSuserAuthentication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54A88300255F0A149DBBE3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDD6A7D6A3F414CB2584B5A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOSuserAuthentication/Pods-IOSuserAuthentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2694CD941D672DFF00C8266A /* Sources */ = {
@@ -411,9 +586,11 @@
 		};
 		2694CDC61D672DFF00C8266A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13352A3F51CA421DBBBC9F9A /* Pods-IOSuserAuthentication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOSuserAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tintash.IOSuserAuthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +599,11 @@
 		};
 		2694CDC71D672DFF00C8266A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CBFDC1F3841E86D9BDD52A2 /* Pods-IOSuserAuthentication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOSuserAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Tintash.IOSuserAuthentication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +612,7 @@
 		};
 		2694CDC91D672DFF00C8266A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1675A1F3D49DE9C350E1A9D8 /* Pods-IOSuserAuthenticationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IOSuserAuthenticationTests/Info.plist;
@@ -445,6 +625,7 @@
 		};
 		2694CDCA1D672DFF00C8266A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCE6B511515372DD0B6ED01 /* Pods-IOSuserAuthenticationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IOSuserAuthenticationTests/Info.plist;
@@ -457,6 +638,7 @@
 		};
 		2694CDCC1D672DFF00C8266A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B58F15995BEC2A14C5C23F /* Pods-IOSuserAuthenticationUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IOSuserAuthenticationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +651,7 @@
 		};
 		2694CDCD1D672DFF00C8266A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F38EA65B1DE55FFE429A2B /* Pods-IOSuserAuthenticationUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IOSuserAuthenticationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +681,7 @@
 				2694CDC71D672DFF00C8266A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2694CDC81D672DFF00C8266A /* Build configuration list for PBXNativeTarget "IOSuserAuthenticationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +690,7 @@
 				2694CDCA1D672DFF00C8266A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2694CDCB1D672DFF00C8266A /* Build configuration list for PBXNativeTarget "IOSuserAuthenticationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +699,7 @@
 				2694CDCD1D672DFF00C8266A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
